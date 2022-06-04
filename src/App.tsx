@@ -5,7 +5,6 @@ import Item from "./Item";
 const App = () => {
   const [cursorActive, setCursorActive] = useState(false);
   const [currentItem, setCurrentItem] = useState(null);
-  console.log(cursorActive);
 
   return (
     <div>
