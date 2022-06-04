@@ -10,6 +10,11 @@ const App = () => {
     <div>
       <Cursor cursorActive={cursorActive} currentItem={currentItem} />
       <div className="item-container">
+        <div className="item-header">
+          <h4>Location</h4>
+          <h4>Photographer</h4>
+          <h4>Visit</h4>
+        </div>
         <div className="items">
           <Item
             setCursorActive={setCursorActive}

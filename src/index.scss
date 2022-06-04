@@ -70,6 +70,20 @@ a {
   transform: translate(-50%, -50%);
   z-index: 0;
 
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 8px;
+
+    h4 {
+      width: 20%;
+      font-weight: 500;
+      color: #777;
+    }
+  }
+
   .items {
     width: 100%;
 
@@ -96,7 +110,10 @@ a {
 
       span {
         width: 20%;
-        color: #999;
+      }
+
+      p {
+        width: 20%;
       }
     }
   }

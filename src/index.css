@@ -84,6 +84,24 @@ a {
   z-index: 0;
 }
 
+.item-container .item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+
+.item-container .item-header h4 {
+  width: 20%;
+  font-weight: 500;
+  color: #777;
+}
+
 .item-container .items {
   width: 100%;
 }
@@ -117,6 +135,9 @@ a {
 
 .item-container .items .item span {
   width: 20%;
-  color: #999;
+}
+
+.item-container .items .item p {
+  width: 20%;
 }
 /*# sourceMappingURL=index.css.map */
