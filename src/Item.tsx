@@ -44,7 +44,7 @@ const Item: React.FC<Props> = ({
         >
           <h3>{item.location}</h3>
           <span>{item.name}</span>
-          <a href="/">See Location</a>
+          <p>See Location</p>
         </a>
       ))}
     </>
