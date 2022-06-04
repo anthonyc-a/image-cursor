@@ -50,6 +50,12 @@ a {
   z-index: 1000;
 }
 
+@media (pointer: coarse) {
+  .cursor {
+    display: none;
+  }
+}
+
 .cursor img {
   position: absolute;
   width: 300px;
