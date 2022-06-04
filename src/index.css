@@ -98,10 +98,13 @@ a {
   width: 100%;
   padding: 24px 8px;
   border-bottom: 1px solid #323232;
+  -webkit-transition: padding 0.3s ease;
+  transition: padding 0.3s ease;
 }
 
 .item-container .items .item:hover {
   background-color: #242424;
+  padding: 24px 16px;
 }
 
 .item-container .items .item:hover p {

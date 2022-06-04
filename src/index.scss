@@ -79,9 +79,11 @@ a {
       width: 100%;
       padding: 24px 8px;
       border-bottom: 1px solid #323232;
+      transition: padding 0.3s ease;
 
       &:hover {
         background-color: #242424;
+        padding: 24px 16px;
 
         p {
           text-decoration: underline;
