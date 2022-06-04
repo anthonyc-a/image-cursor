@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Cursor from "./Cursor";
+import Item from "./Item";
 
-function App() {
+const App = () => {
+  const [cursorActive, setCursorActive] = useState(false);
+  const [currentItem, setCurrentItem] = useState(null);
+  console.log(cursorActive);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Cursor cursorActive={cursorActive} currentItem={currentItem} />
+      <div className="item-container">
+        <div className="items">
+          <Item
+            setCursorActive={setCursorActive}
+            setCurrentItem={setCurrentItem}
+          />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
