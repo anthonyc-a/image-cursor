@@ -19,7 +19,7 @@ const data = [
   {
     name: "Kirk Robert",
     img: "https://www.wonderfulmarche.com/wp-content/uploads/2020/09/Fermo-Italy.jpg",
-    location: "Fermo, Italia",
+    location: "Fermo, Italy",
   },
 ];
 
