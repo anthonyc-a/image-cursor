@@ -111,7 +111,12 @@ a {
   text-decoration: underline;
 }
 
+.item-container .items .item h3 {
+  width: 20%;
+}
+
 .item-container .items .item span {
+  width: 20%;
   color: #999;
 }
 /*# sourceMappingURL=index.css.map */
