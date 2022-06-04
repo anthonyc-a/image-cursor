@@ -48,7 +48,7 @@ a {
     height: 190px;
     opacity: 0;
     transform: scale(0.8);
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 
     &.active {
       opacity: 1;
@@ -68,7 +68,6 @@ a {
 
   .items {
     width: 100%;
-    border-top: 1px solid #323232;
 
     .item {
       display: flex;
