@@ -131,6 +131,7 @@ a {
 
 .item-container .items .item h3 {
   width: 20%;
+  font-weight: 600;
 }
 
 .item-container .items .item span {
